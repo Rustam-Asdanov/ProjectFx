@@ -94,7 +94,6 @@ public class Controller {
             Stage stage = new Stage();
             stage.setScene(new Scene(root,500,500));
             stage.setTitle("New Window");
-            stage.setResizable(false);
             stage.show();
 
             File file = new File("C:\\Users\\Rustam\\Desktop\\Learning programing\\Backend project\\SpringOne\\ProjectFx\\img\\online-test.png");
