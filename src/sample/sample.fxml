@@ -10,5 +10,7 @@
       <PieChart fx:id="pieChart" layoutX="14.0" prefHeight="182.0" prefWidth="255.0" />
       <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" layoutX="350.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
       <Button layoutX="243.0" layoutY="259.0" mnemonicParsing="false" onAction="#openNewWindowFunction" text="Open New Window" />
+      <Button layoutX="40.0" layoutY="259.0" mnemonicParsing="false" onAction="#openFilterListFunction" text="filter table" />
+      <Button layoutX="450.0" layoutY="247.0" mnemonicParsing="false" onAction="#moveCircleFunction" text="movement" />
    </children>
 </AnchorPane>

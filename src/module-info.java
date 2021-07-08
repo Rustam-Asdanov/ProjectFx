@@ -6,4 +6,6 @@ module ProjectFx {
 
     opens sample;
     opens sampleTwo;
+    opens filterTable;
+    opens circleMove;
 }

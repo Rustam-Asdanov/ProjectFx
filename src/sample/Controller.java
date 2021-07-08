@@ -109,6 +109,47 @@ public class Controller {
 
     }
 
+    @FXML
+    public void openFilterListFunction(ActionEvent actionEvent) {
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/filterTable/sample.fxml"));
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root,500,500));
+            stage.setTitle("New Window");
+            stage.show();
+
+            File file = new File("C:\\Users\\Rustam\\Desktop\\Learning programing\\Backend project\\SpringOne\\ProjectFx\\img\\online-test.png");
+
+            String imageUrl = file.toURI().toURL().toString();
+            stage.getIcons().add(new Image(imageUrl));
+
+            ((Stage) anchorPane.getScene().getWindow()).close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    @FXML
+    public void moveCircleFunction(ActionEvent actionEvent) {
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/circleMove/sample.fxml"));
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root,500,500));
+            stage.setTitle("New Window");
+            stage.show();
+
+            File file = new File("C:\\Users\\Rustam\\Desktop\\Learning programing\\Backend project\\SpringOne\\ProjectFx\\img\\online-test.png");
+
+            String imageUrl = file.toURI().toURL().toString();
+            stage.getIcons().add(new Image(imageUrl));
+
+            ((Stage) anchorPane.getScene().getWindow()).close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     /**
      * String...pieColors
      *
