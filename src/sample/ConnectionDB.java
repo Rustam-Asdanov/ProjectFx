@@ -61,6 +61,8 @@ public class ConnectionDB {
 
 
     public static void insert(Friends friend){
+        // insert into friend_list() values ('sdd',
+        // String query = "insert " + intA +
         String querry = String.format("insert into friend_list(fl_name,surname,friend_boy,friend_girl) " +
                 "values ('%s','%s','%s','%s');",
                 friend.getName(),friend.getSurname(),friend.getFriend_boy(),friend.getFriend_girl());

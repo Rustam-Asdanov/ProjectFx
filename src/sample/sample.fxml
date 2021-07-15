@@ -13,5 +13,6 @@
       <Button layoutX="40.0" layoutY="259.0" mnemonicParsing="false" onAction="#openFilterListFunction" text="filter table" />
       <Button layoutX="450.0" layoutY="247.0" mnemonicParsing="false" onAction="#moveCircleFunction" text="movement" />
       <Button layoutX="142.0" layoutY="312.0" mnemonicParsing="false" onAction="#baseCheckFunction" text="base check" />
+      <Button layoutX="288.0" layoutY="312.0" mnemonicParsing="false" onAction="#openTableWithDate" text="go to table with date" />
    </children>
 </AnchorPane>

@@ -10,4 +10,5 @@ module ProjectFx {
     opens filterTable;
     opens circleMove;
     opens checkFromBase;
+    opens table_Date;
 }
